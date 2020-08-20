@@ -1,6 +1,8 @@
+# Image Similarity Model
 # Finding N similar images from the dataset given on a query image.
 
 # Plan of Action
+![plan](https://user-images.githubusercontent.com/58396314/90765118-0b2d0f00-e307-11ea-9fbf-22e1823c99eb.PNG)
 
 *    We have nearly ~5K images with 512x512 resolution gives ~1,310,720,000 pixels. Loading into RAM and processing each image with every other image will be computationally expensive and may crashes the system(GPU or TPU).
 *    So as a solution I integrated both convolutional neural networks and autoencoder ideas for information reduction from image based data. 
