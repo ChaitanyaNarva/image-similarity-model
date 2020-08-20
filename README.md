@@ -7,6 +7,9 @@
 *    We have nearly ~5K images with 512x512 resolution gives ~1,310,720,000 pixels. Loading into RAM and processing each image with every other image will be computationally expensive and may crashes the system(GPU or TPU).
 *    So as a solution I integrated both convolutional neural networks and autoencoder ideas for information reduction from image based data. 
 *    That would be pre-processing step for clustering.
+
+<img width="573" alt="conv_encoder" src="https://user-images.githubusercontent.com/58396314/90765423-7ecf1c00-e307-11ea-955d-ea059e6acb2f.PNG">
+
 <strong>Convolutional AutoEncoders:</strong>
 *    We can call left to centroid side as convolution whereas centroid to right side as deconvolution.
 *    Deconvolution side is also known as unsampling or transpose convolution. It is a basic reduction operation.
