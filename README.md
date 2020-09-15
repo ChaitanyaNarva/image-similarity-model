@@ -44,3 +44,7 @@ To visualize the clustering we need to perform dimensionality reduction through 
 
 <strong>Real Time Testing</strong>
 
+![query](https://user-images.githubusercontent.com/58396314/93178996-b25c6500-f752-11ea-901e-8cc0ce4734e2.PNG)
+
+
+
