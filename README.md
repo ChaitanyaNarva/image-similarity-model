@@ -20,9 +20,13 @@
 *    We can then apply clustering to compressed representation. I would like to apply k-means clustering to cluster the images into 4 groups.
 *    This could fasten labeling process for unlabeled data.
 
+
+
 <strong>KNN</strong>
 *    Model training to find N similar images.
 *    Finding Nearest neighbors and taking N nearest points as similar images given on a query image.
+
+![knn](https://user-images.githubusercontent.com/58396314/93177880-14b46600-f751-11ea-8311-112320b0f1af.PNG)
 
 <strong>Prediction Algorithm:</strong>
 
