@@ -46,5 +46,5 @@ To visualize the clustering we need to perform dimensionality reduction through 
 
 ![query](https://user-images.githubusercontent.com/58396314/93178996-b25c6500-f752-11ea-901e-8cc0ce4734e2.PNG)
 
-
+![testing3](https://user-images.githubusercontent.com/58396314/93179232-0109ff00-f753-11ea-9f30-e8b0c30695c0.PNG)
 
