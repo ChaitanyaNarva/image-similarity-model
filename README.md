@@ -8,7 +8,6 @@
 *    So as a solution I integrated both convolutional neural networks and autoencoder ideas for information reduction from image based data. 
 *    That would be pre-processing step for clustering.
 
-<img width="573" alt="conv_encoder" src="https://user-images.githubusercontent.com/58396314/90765423-7ecf1c00-e307-11ea-955d-ea059e6acb2f.PNG">
 
 <strong>Convolutional AutoEncoders:</strong>
 *    We can call left to centroid side as convolution whereas centroid to right side as deconvolution.
@@ -20,7 +19,7 @@
 *    We can then apply clustering to compressed representation. I would like to apply k-means clustering to cluster the images into 4 groups.
 *    This could fasten labeling process for unlabeled data.
 
-
+![clustering](https://user-images.githubusercontent.com/58396314/93178167-78d72a00-f751-11ea-8a55-9fb06ad83589.PNG)
 
 <strong>KNN</strong>
 *    Model training to find N similar images.
