@@ -15,13 +15,18 @@
 *    Reverse operation using upsampling to decode the encoded image.
 *    Building an autoencoder model, grabing the compressed image from the intermediate layers, then feed that lower-dimension array into KMeans clustering. 
 
+![convo;utional_autoencoders](https://user-images.githubusercontent.com/58396314/93178450-e5eabf80-f751-11ea-9bd6-e4714bab7161.PNG)
+
 <strong>K-Means Clustering</strong>
 *    We can then apply clustering to compressed representation. I would like to apply k-means clustering to cluster the images into 4 groups.
 *    This could fasten labeling process for unlabeled data.
 
 ![clustering](https://user-images.githubusercontent.com/58396314/93178167-78d72a00-f751-11ea-8a55-9fb06ad83589.PNG)
 
-<strong>KNN</strong>
+<strong>Dimensionality Reduction Through T-SNE:</strong>
+To visualize the clustering we need to perform dimensionality reduction through T-SNE. Which helps us to decide the optimal hyperparameter.
+
+<strong>K-Nearest Neighbors(KNN)</strong>
 *    Model training to find N similar images.
 *    Finding Nearest neighbors and taking N nearest points as similar images given on a query image.
 
@@ -36,3 +41,6 @@
    Step-3: From the extracted features finding the label to which that image belongs using K-Means clustering.
    
    Step-4: Using KNN model finding N similar images using predict images and finally plotting the result.
+
+<strong>Real Time Testing</strong>
+
